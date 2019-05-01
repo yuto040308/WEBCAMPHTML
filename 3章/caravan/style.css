@@ -1,0 +1,12 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+/* リセットCSSを記述することにより、意図した通りにページが表示できブラウザごとのデザインを統一できると、認識 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 300px;
+	height: 300px;
+}
