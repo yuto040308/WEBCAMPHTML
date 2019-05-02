@@ -1,0 +1,51 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+/* リセットCSSを記述することにより、意図した通りにページが表示できブラウザごとのデザインを統一できると、認識 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 50px;
+	width: 100%;
+	background-color: red;
+}
+
+.main-visual {
+	height: 500px;
+	width: 100%;
+	background-color: orange;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-contents {
+	width: 960px;
+	margin: 0 auto;
+	background-color: limegreen;
+}
+
+.left-contents {
+	float: left;
+	height: 1400px;
+	width: 230px;
+	background-color: palegreen;
+}
+
+.right-contents {
+	float: right;
+	height: 1400px;
+	width: 230px;
+	background-color: palegreen;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: blue;
+}
