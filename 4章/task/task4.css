@@ -1,0 +1,122 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+/* リセットCSSを記述することにより、意図した通りにページが表示できブラウザごとのデザインを統一できると、認識 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+}
+
+.headline {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav {
+	width: 100%;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.nav-items {
+	text-align: center;
+}
+
+.nav-item {
+	list-style: none;
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+.main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.top-contents {
+	/* 余計な隙間をなくす */
+	font-size: 0px;
+	text-align: center;
+}
+
+.center-contents {
+	/* 余計な隙間をなくす */
+	font-size: 0px;
+	text-align: center;
+}
+
+.bottom-contents {
+	/* 余計な隙間をなくす */
+	font-size: 0px;
+	text-align: center;
+}
+
+.flame {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+.green-one {
+	background-color: #e6ffe9;
+}
+
+.green-two {
+	background-color: #cbffd3;
+}
+
+.green-three {
+	background-color: #aeffbd;
+}
+
+.green-four {
+	background-color: #93ffab;
+}
+
+.yellow-one {
+	background-color: #f3ffd8;
+}
+
+.yellow-two {
+	background-color: #edffbe;
+}
+
+.yellow-three {
+	background-color: #e9ffa5;
+}
+
+.yellow-four {
+	background-color: #e4ff8d;
+}
+
+.blue-one {
+	background-color: #d9e5ff;
+}
+
+.blue-two {
+	background-color: #bad3ff;
+}
+
+.blue-three {
+	background-color: #a4c6ff;
+}
+
+.blue-four {
+	background-color: #8eb8ff;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	background-color: #848282;
+	line-height: 120px;
+}
+
+.footer-text {
+	color: #fff;
+}
