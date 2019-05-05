@@ -95,23 +95,6 @@ main {
 	padding-top: 50px;
 }
 
-.pagination {
-	text-align: center;
-	padding-top: 50px;
-}
-
-.pagination-box {
-	width: 30px;
-	height: 30px;
-	color: white;
-	background-color: #acabab;
-	display: inline-block;
-	border-radius: 3px;
-	margin-left: 5px;
-	margin-right: 5px;
-	line-height: 30px;
-}
-
 .blog-item {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
