@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.contents {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+img {
+	width: 280px;
+	height: 150px;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.content {
+	position: relative;
+	width: 300px;
+	border: 1px solid #eee;
+	padding: 10px;
+	float: left;
+}
+
+.step-block {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FF9A4B;
+	padding: 3px;
+	color: white;
+}
+
+.content h3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.content:nth-child(1) {
+	margin-right: 30px;
+}
+
+.content:nth-child(2) {
+	margin-right: 30px;
+}
+
+/* andの後のカッコは必ず開けること */
+@media screen and (max-width:768px){
+	.contents {
+		width: 100%;
+	}
+
+	.content {
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	.content img {
+		width: 100%;
+	}
+
+	.content h3 {
+		color: dimgray;
+	}
+
+	.content:nth-child(1),.content:nth-child(2) {
+		margin-bottom: 20px;
+	}
+
+	.main-text {
+		font-size: 15.5px;
+		color: dimgray;
+	}
+}
