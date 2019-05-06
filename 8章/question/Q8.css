@@ -1,0 +1,17 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+/* リセットCSSを記述することにより、意図した通りにページが表示できブラウザごとのデザインを統一できると、認識 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.position {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+
+.fa-twitter, .fa-facebook {
+	font-size: 32px;
+}
