@@ -205,3 +205,86 @@ header {
 	font-size: 16px;
 	color: #000;
 }
+
+.profile {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #eceff1;
+}
+
+.profile-contents {
+	width: 1024px;
+	margin: 0 auto ;
+}
+
+.profile-main-texts {
+	text-align: center;
+}
+
+.profile-main-texts h2 {
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	color: #000;
+}
+
+.profile-border {
+	margin-top: 8px;
+	display: inline-block;
+	border-bottom: 3px solid #ec715f;
+	width: 70px;
+}
+
+.profile-main-texts p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #000;
+}
+
+.profile-image-zone {
+	padding-top: 30px;
+	width: 512px;
+	float: left;
+}
+
+.profile-image {
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	margin: 0 auto;
+	border-radius: 125px;
+}
+
+.profile-sub-texts {
+	width: 512px;
+	float: left;
+}
+
+.profile-sub-text-name {
+	padding-top: 30px;
+}
+
+.profile-sub-text-name h3 {
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.profile-sub-text-name p {
+	font-size: 16px;
+	color: #000;
+}
+
+.profile-sub-text-skills {
+	padding-top: 20px;
+}
+
+.profile-sub-text-skills h3 {
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.profile-sub-text-skills p {
+	font-size: 16px;
+	color: #000;
+}
