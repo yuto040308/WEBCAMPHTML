@@ -10,6 +10,13 @@ header {
 	background-color: #ec715f;
 }
 
+/* clearfixを追加 */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .header-container {
 	width: 1024px;
 	margin: 0 auto;
@@ -59,6 +66,8 @@ header {
 }
 
 .portfolio {
+	padding-top: 90px;
+	padding-bottom: 90px;
 	background-color: #eceff1;
 }
 
@@ -72,7 +81,7 @@ header {
 }
 
 .portfolio-texts h2 {
-	padding-top: 90px;
+	
 	font-size: 32px;
 	font-weight: normal;
 	/* h2タグは、標準で文字の上下に空白をもつため、取り消す。 */
@@ -92,4 +101,107 @@ header {
 
 	padding-top : 30px;
 	padding-bottom: 30px;
+}
+
+.portfolio-image {
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+
+.portfolio-image:nth-child(1) {
+	background-image: url(img/sketch.jpg);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.portfolio-image:nth-child(2) {
+	background-image: url(img/websuku.png);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.portfolio-image:nth-child(3) {
+	background-image: url(img/write.jpg);
+	margin-bottom: 10px;
+}
+
+.portfolio-image:nth-child(4) {
+	background-image: url(img/webcamp.png);
+	margin-right: 10px;
+}
+
+.portfolio-image:nth-child(5) {
+	background-image: url(img/talk.jpg);
+	margin-right: 10px;
+}
+
+.portfolio-image:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.feature-contents {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.feature-main-texts {
+	text-align: center;
+}
+
+.feature-main-texts h2 {
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	color: #000;
+}
+
+.feature-border {
+	margin-top: 8px;
+	display: inline-block;
+	border-bottom: 3px solid #ec715f;
+	width: 70px;
+}
+
+.feature-main-texts p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #000;
+}
+
+.feature-sub-texts {
+	width: 320px;
+	float: left;
+	text-align: center;
+	
+}
+
+.submargin {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.fa-desktop,.fa-laptop,.fa-tablet-alt {
+	font-size: 60px
+}
+
+.feature-sub-texts h3 {
+	font-size: 20px;
+	color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.feature-sub-texts p {
+	text-align: left;
+	font-size: 16px;
+	color: #000;
 }
