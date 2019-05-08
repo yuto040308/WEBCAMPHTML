@@ -288,3 +288,92 @@ header {
 	font-size: 16px;
 	color: #000;
 }
+
+.contact {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.contact-contents {
+	width: 800px;
+	margin: 0 auto ;
+}
+
+.contact-main-texts {
+	text-align: center;
+}
+
+.contact-main-texts h2 {
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	color: #000;
+}
+
+.contact-border {
+	margin-top: 8px;
+	display: inline-block;
+	border-bottom: 3px solid #ec715f;
+	width: 70px;
+}
+
+.contact-main-texts p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #000;
+}
+
+.contact-adress-texts {
+	width: 400px;
+	float: left;
+	text-align: center;
+}
+
+.contact-adress-texts-content {
+	display: inline-block;
+	text-align: left;
+}
+
+.contact-adress-texts-content h3 {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.adress-margin {
+	padding-bottom: 20px;
+}
+
+.contact-sns-texts {
+	width: 400px;
+	float: left;
+	text-align: center;
+}
+
+.contact-sns-texts-content {
+	display: inline-block;
+	text-align: left;
+}
+
+.contact-sns-texts-content h3 {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.fa-facebook-f,.fa-twitter,.fa-instagram {
+	font-size: 50px;
+}
+
+.fa-twitter {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer {
+	height: 60px;
+	background-color: #ec715f;
+	text-align: center;
+	font-size: 16px;
+	line-height: 60px;
+	color: #fafafa;
+}
