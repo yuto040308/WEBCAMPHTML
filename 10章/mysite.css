@@ -57,3 +57,39 @@ header {
 .main-visual-text p {
 	font-size: 20px;
 }
+
+.portfolio {
+	background-color: #eceff1;
+}
+
+.portfolio-contents {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.portfolio-texts {
+	text-align: center;
+}
+
+.portfolio-texts h2 {
+	padding-top: 90px;
+	font-size: 32px;
+	font-weight: normal;
+	/* h2タグは、標準で文字の上下に空白をもつため、取り消す。 */
+	line-height: 32px;
+	color: #000;
+	padding-bottom: 0;
+}
+
+.portfolio-border {
+	margin-top: 8px;
+	display: inline-block;
+	width: 70px;
+	border-bottom: 3px solid #ec715f;
+}
+
+.portfolio-texts p {
+
+	padding-top : 30px;
+	padding-bottom: 30px;
+}
