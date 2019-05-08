@@ -459,10 +459,6 @@ footer {
 		width: 90%;
 	}
 
-	.portfolio-images {
-		
-	}
-
 	.portfolio-image {
 		float: none;
 		/* レスポンシブ対応前の位置指定を無効化 */
@@ -494,6 +490,53 @@ footer {
 	.portfolio-image:nth-child(6){
 		margin: 0 auto;
 		
+	}
+
+	.feature {
+		width: 100%;
+	}
+
+	.feature-contents {
+		width: 90%;
+	}
+
+	.fa-facebook-f,.fa-twitter,.fa-instagram {
+		font-size: 60px;
+	}
+
+	.feature-sub-texts {
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	.feature-sub-texts p {
+		text-align: left;
+	}
+
+	.profile {
+		width: 100%;
+	}
+
+	.profile-contents {
+		width: 90%;
+	}
+
+	.profile-image-zone {
+		width: 100%;
+		float: none;
+	}
+
+	.profile-sub-texts {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.profile-sub-text-name {
+		padding-top: 20px;
 	}
 
 }
