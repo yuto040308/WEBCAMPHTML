@@ -539,4 +539,43 @@ footer {
 		padding-top: 20px;
 	}
 
+	.contact {
+		width: 100%;
+	}
+
+	.contact-contents {
+		width: 90%;
+	}
+
+	.contact-adress-texts {
+		width: 100%;
+		float: none;
+	}
+
+	.contact-adress-texts-content {
+		text-align: center;
+	}
+
+	.tell-margin {
+		padding-bottom: 20px;
+	}
+
+	.contact-sns-texts {
+		width: 100%;
+		float: none;
+	}
+
+	.contact-sns-texts-content {
+		text-align: center;
+	}
+
+	.fa-twitter {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	footer {
+		width: 100%;
+	}
+
 }
